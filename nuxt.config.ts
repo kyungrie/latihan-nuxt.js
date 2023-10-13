@@ -1,8 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@vite-pwa/nuxt'],
-
+  modules: ["@nuxtjs/tailwindcss",'@vite-pwa/nuxt'],
+  tailwindcss:{
+    cssPath: '~/asset/css/tailwind.css',
+    configPath: '~/tailwind.config.ts',
+  },
   pwa: {
     manifest:{  
       name: "smkcoding",
