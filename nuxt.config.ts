@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       scope: "/",
       start_url: "/",
       icons: [
-    {
+    {  
       src: "images/icons/icon-72x72.png",
       sizes: "72x72",
       type: "image/png"
