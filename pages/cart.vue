@@ -2,8 +2,8 @@
     <h1>ini halaman cart</h1>
 </template>
 
-<script setup>
+<!-- <script setup>
 definePageMeta({
     layout: 'blank',
 })
-</script>
+</script> -->
