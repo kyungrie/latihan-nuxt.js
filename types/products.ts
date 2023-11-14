@@ -1,5 +1,5 @@
 export interface Products {
-  id: number,
+  id?: number,
   name?: string,
   category?: string,
   price?: number,
@@ -9,3 +9,13 @@ export interface Products {
   description?: string,
   quantity?: number,
   }
+  export interface FormField {
+    id?: string;
+    name?: string;
+    label?: string;
+    type?: string;
+    value?: string | object;
+    placeholder?: string;
+    checked?: boolean;
+    required?: boolean;
+    }

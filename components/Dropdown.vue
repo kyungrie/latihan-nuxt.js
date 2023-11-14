@@ -19,9 +19,7 @@ defineEmits(["selectedCategory"]);
             @click="$emit('selectedCategory', '')">All</span>
         </li>
         <li v-for="(item, index) in category" :key="index">
-          <span
-            class="block px-4 py-2 hover:bg-primary hover:text-white transition duration-200 cursor-pointer"
-            @click="$emit('selectedCategory', item.name)">{{ item?.name }}</span>
+          <span class="block px-4 py-2 hover:bg-primary hover:text-white transition duration-200 cursor-pointer" @click="$emit('selectedCategory', item.name)">{{ item?.name }}</span>
         </li>
       </ul>
     </div>
