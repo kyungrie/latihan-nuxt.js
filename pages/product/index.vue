@@ -9,6 +9,10 @@ allProducts.value = productStore.products;
 });
 
 const selectedCategory = ref("");
+
+definePageMeta({
+middleware: ["user-access"]
+});
 </script>
 <template>
   <section>
